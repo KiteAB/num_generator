@@ -110,7 +110,7 @@ def main():
                 yes = True
                 break
             else:
-                print("Please enter y/n are not more letters or numbers")
+                print("Please enter y/n are not the letters or numbers")
                 continue
         if yes == True:
             yes = False
