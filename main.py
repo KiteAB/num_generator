@@ -100,14 +100,11 @@ def main():
                 "\n\nDo you want to regenerate the next set of numbers? (Y/n): "
             )
             # case and normal status support
-            if next == "y" or next == "Y":
+            if next == "y" or next == "Y" or next == "":
                 yes = True
                 break
             elif next == "n" or next == "N":
                 yes = False
-                break
-            elif next == "":
-                yes = True
                 break
             else:
                 print("Please enter y/n are not the letters or numbers")
